@@ -9,7 +9,7 @@ Paper: https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.27719
 Code: https://github.com/nankueichen/Fourier_space_phase_unwrapping
 
 ## Phase unwrapping based on integrated Fourier-domain and image-domain analyses
-*Nan-kuei Chen* | *Pei-Hsin Wu* <br> <br> 
+*Nan-kuei Chen* | *Pei-Hsin Wu* <br> 
 
 **Purpose**: We report a new postprocessing procedure that uses Fourier‐domain data analyses to improve the accuracy and reliability of phase unwrapping for MRI data of low SNR.
 
