@@ -36,10 +36,12 @@ GEM
     ethon (0.12.0)
       ffi (>= 1.3.0)
     eventmachine (1.2.7)
+    eventmachine (1.2.7-x64-mingw32)
     execjs (2.7.0)
     faraday (0.17.0)
       multipart-post (>= 1.2, < 3)
     ffi (1.11.1)
+    ffi (1.11.1-x64-mingw32)
     formatador (0.2.5)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
@@ -251,6 +253,8 @@ GEM
     nenv (0.3.0)
     nokogiri (1.10.4)
       mini_portile2 (~> 2.4.0)
+    nokogiri (1.10.4-x64-mingw32)
+      mini_portile2 (~> 2.4.0)
     notiffany (0.1.3)
       nenv (~> 0.1)
       shellany (~> 0.0)
@@ -288,10 +292,14 @@ GEM
       ethon (>= 0.9.0)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
+    tzinfo-data (1.2019.3)
+      tzinfo (>= 1.0.0)
     unicode-display_width (1.6.0)
+    wdm (0.1.1)
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
   github-pages
@@ -302,6 +310,7 @@ DEPENDENCIES
   jekyll-redirect-from
   jekyll-scholar
   tzinfo-data
+  wdm (~> 0.1.0)
 
 BUNDLED WITH
    1.17.2

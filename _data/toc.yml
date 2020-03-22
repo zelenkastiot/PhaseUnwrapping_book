@@ -1,17 +1,63 @@
 # Top-level page
-- title: Home
-  url: /intro
-  not_numbered: true
+- title: Abstract
+  url: /abstract
+  not_numbered: true 
+  
+# Divider for meta-pages and content page
+- divider: true
 
-# External link
+# Add a header and sample content section
+- header: Contents
+
+- title: Introduction
+  url: /01/intro
+  not_numbered: false
+
+- url: /02/00
+  not_numbered: false
+  expand_sections: false
+  sections:
+   - url: /02/subsection/1/01
+     not_numbered: false
+   - url: /02/subsection/2/02
+     not_numbered: false
+
+- url: /03/00
+  not_numbered: false
+  expand_sections: false
+  sections:
+   - url: /03/subsection/1/01
+     not_numbered: false
+   - url: /03/subsection/2/02
+     not_numbered: false
+ 
+- url: /04/00
+  not_numbered: false
+  expand_sections: false
+  sections:
+   - url: /04/subsection/1/01
+     not_numbered: false
+   - url: /04/subsection/2/02
+     not_numbered: false 
+
+- url: /05/00
+  not_numbered: false
+
+- url: /06/00
+  not_numbered: false
+ 
+- url: /07/00
+  not_numbered: false
+
 - title: GitHub repository
   url: https://github.com/zelenkastiot/Phase-unwrapping-book
   external: true
   not_numbered: true
-
-# Adds a searchbar link
-- title: Search
-  search: true
-
+  
 # Divider for meta-pages and content page
 - divider: true
+
+- title: Julia Notebook
+  url: /08/Julia_test
+  not_numbered: true
+

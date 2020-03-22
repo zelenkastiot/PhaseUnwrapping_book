@@ -16,11 +16,14 @@
 
 #######################################################################################
 # Jekyll site settings
-title: Phase unwrapping based on integrated Fourier-domain and image-domain analyses 
-author: Kiril Zelenkovski
+title: <center> Phase unwrapping based on integrated Fourier-domain and image-domain
+  analyses </center>
+author: Nan-kuei Chen
 email: zelenkastiot@gmail.com
 description: >-
-  This is an example book built with Jupyter Books.
+  Report of a new postprocessing procedure that uses Fourier-domain data analyses
+  to improve the accuracy and reliability of phase unwrapping for MRI data of low
+  SNR.
 
 baseurl: /  # the subpath of your site, e.g. /blog. If there is no subpath for your site, use an empty string ""
 url: YOUR URL                  # the base hostname & protocol for your site, e.g. http://example.com
@@ -30,14 +33,15 @@ url: YOUR URL                  # the base hostname & protocol for your site, e.g
 # Jupyter Book settings
 
 # Main page settings
-footer_text: This page was created by <a href="https://github.com/zelenkastiot">Kiril Zelenkovski</a>
+footer_text: This page was created by <a href="https://github.com/zelenkastiot">Kiril
+  Zelenkovski</a>
 
 # Sidebar settings
 show_sidebar: true                # Show the sidebar. Only set to false if your only wish to host a single page.
 collapse_inactive_chapters: true  # Whether to collapse the inactive chapters in the sidebar
 collapse_inactive_sections: true  # Whether to collapse the sub-sections within a non-active section in the sidebar
 textbook_logo: images/logo/logo.png               # A logo to be displayed at the top of your textbook sidebar. Should be square
-textbook_logo_link: https://github.com/zelenkastiot/Phase-unwrapping-book                # A link for the logo.
+textbook_logo_link: https://github.com/zelenkastiot/Phase-unwrapping-book # A link for the logo.
 sidebar_footer_text: Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
 number_toc_chapters: true         # Whether to add numbers to chapterse in your Table of Contents. If true, you can control this at the Chapter level in _data/toc.yml
 
@@ -45,7 +49,7 @@ number_toc_chapters: true         # Whether to add numbers to chapterse in your 
 search_max_words_in_content: 100   # In the search function, use at most this many words (too many words will make search slow)
 
 # Controlling page information
-page_titles: /_data/toc                      # Either `None`, `infer`, or `toc`
+page_titles: _data/toc                  # Either `None`, `infer`, or `toc`
 page_authors: None                     # Either `None` or `infer`
 filename_title_split_character: _     # If inferring titles based on filename, splt on this character.
 
@@ -64,17 +68,17 @@ jupyterhub_url: ''                     # The URL for your JupyterHub. If no URL,
 jupyterhub_interact_text: Interact             # The text that interact buttons will contain.
 
 # Binder link settings
-use_binder_button: false                 # If 'true', add a binder button for interactive links
+use_binder_button: true                  # If 'true', add a binder button for interactive links
 binderhub_url: https://mybinder.org                        # The URL for your BinderHub. If no URL, use ""
 binder_repo_base: https://github.com/                     # The site on which the textbook repository is hosted
-binder_repo_org: YOUR-ORG                     # The username or organization that owns this repository
-binder_repo_name: YOUR-REPO                        # The name of the repository on the web
-binder_repo_branch: gh-pages                   # The branch on which your textbook is hosted.
-binderhub_interact_text: Interact              # The text that interact buttons will contain.
+binder_repo_org: zelenkastiot                 # The username or organization that owns this repository
+binder_repo_name: Phase-unwrapping-book            # The name of the repository on the web
+binder_repo_branch: master                     # The branch on which your textbook is hosted.
+binderhub_interact_text: Launch Binder         # The text that interact buttons will contain.
 
 # Thebelab settings
 use_thebelab_button: true                # If 'true', display a button to allow in-page running code cells with Thebelab
-thebelab_button_text: Thebelab                 # The text to display inside the Thebelab initialization button
+thebelab_button_text: Interact Inline          # The text to display inside the Thebelab initialization button
 codemirror_theme: abcdef                     # Theme for codemirror cells, for options see https://codemirror.net/doc/manual.html#config
 
 # nbinteract settings
