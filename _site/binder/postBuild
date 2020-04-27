@@ -1,6 +1,0 @@
-# chmod 
-chmod 777 ~/content/08/juliafunction/Read_NIfTI1.jl;
-chmod 777 ~/content/08/juliafunction/myFun.jl;
-
-# Julia 
-julia --project=@. ~/binder/init.jl;

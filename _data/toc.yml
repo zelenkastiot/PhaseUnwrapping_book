@@ -1,63 +1,34 @@
+# Add a header and sample content section
+- header: Content
+
 # Top-level page
+- title: Introduction
+  url: /intro
+  not_numbered: true
+
+# A chapter w/ a collection of sections beneath it
 - title: Abstract
-  url: /abstract
-  not_numbered: true 
+  url: /01/abstract
+  not_numbered: true
+
+- title: Theory
+  url: /02/theory
+  not_numbered: true
+   
+- title: Code Example
+  url: /03/Julia_test
+  not_numbered: true
   
-# Divider for meta-pages and content page
 - divider: true
 
-# Add a header and sample content section
-- header: Contents
-
-- title: Introduction
-  url: /01/intro
-  not_numbered: false
-
-- url: /02/00
-  not_numbered: false
-  expand_sections: false
-  sections:
-   - url: /02/subsection/1/01
-     not_numbered: false
-   - url: /02/subsection/2/02
-     not_numbered: false
-
-- url: /03/00
-  not_numbered: false
-  expand_sections: false
-  sections:
-   - url: /03/subsection/1/01
-     not_numbered: false
-   - url: /03/subsection/2/02
-     not_numbered: false
- 
 - url: /04/00
-  not_numbered: false
+  not_numbered: true
   expand_sections: false
   sections:
-   - url: /04/subsection/1/01
-     not_numbered: false
-   - url: /04/subsection/2/02
-     not_numbered: false 
-
-- url: /05/00
-  not_numbered: false
-
-- url: /06/00
-  not_numbered: false
- 
-- url: /07/00
-  not_numbered: false
+   - title: Interactive figures
+     url: /04/subsection/01/PlotlyDemo 
 
 - title: GitHub repository
   url: https://github.com/zelenkastiot/Phase-unwrapping-book
   external: true
   not_numbered: true
-  
-# Divider for meta-pages and content page
-- divider: true
-
-- title: Julia Notebook
-  url: /08/Julia_test
-  not_numbered: true
-

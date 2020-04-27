@@ -33,8 +33,8 @@ url: YOUR URL                  # the base hostname & protocol for your site, e.g
 # Jupyter Book settings
 
 # Main page settings
-footer_text: This page was created by <a href="https://github.com/zelenkastiot">Kiril
-  Zelenkovski</a>
+footer_text: This page was created by <a href="https://ismrm.github.io/mrhub/">MR-Hub</a>
+  Community
 
 # Sidebar settings
 show_sidebar: true                # Show the sidebar. Only set to false if your only wish to host a single page.
