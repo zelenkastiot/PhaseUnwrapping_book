@@ -16,17 +16,10 @@
   not_numbered: true
    
 - title: Code Example
-  url: /03/Julia_test
+  url: /03/sos_notebook
   not_numbered: true
   
 - divider: true
-
-- url: /04/00
-  not_numbered: true
-  expand_sections: false
-  sections:
-   - title: Interactive figures
-     url: /04/subsection/01/PlotlyDemo 
 
 - title: GitHub repository
   url: https://github.com/Notebook-Factory/Phase-unwrapping-book
