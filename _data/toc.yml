@@ -22,6 +22,6 @@
 - divider: true
 
 - title: GitHub repository
-  url: https://github.com/Notebook-Factory/Phase-unwrapping-book
+  url: https://github.com/Notebook-Factory/PhaseUnwrapping_book
   external: true
   not_numbered: true
