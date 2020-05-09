@@ -1,7 +1,7 @@
 
 *** 
 
-<h3> <i> "The use of Fourier-domain analyses for unwrapping phase images of low SNR" </i></h3> <br> <br> 
+<h3> <i> "The use of Fourier-domain analyses for unwrapping phase images of low SNR" </i></h3> <br> 
 
 <img src="images/vol82_1.jpg" style="width:190px;height:auto;"  align="right">
 
