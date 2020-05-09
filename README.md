@@ -14,4 +14,4 @@ Code: https://github.com/nankueichen/Fourier_space_phase_unwrapping
 **Purpose**: We report a new postprocessing procedure that uses Fourier‐domain data analyses to improve the accuracy and reliability of phase unwrapping for MRI data of low SNR.
 
 
-A demo of the hosted book: https://notebook-factory.github.io/Phase-unwrapping-book/intro
+A demo of the hosted book: https://notebook-factory.github.io/PhaseUnwrapping_book/intro
