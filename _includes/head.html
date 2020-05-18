@@ -1,7 +1,13 @@
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,minimum-scale=1">
+  <meta http-equiv="cache-control" content="no-cache" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="-1" />
+  <meta name="turbolinks-cache-control" content="no-cache">
+
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.content | strip_html | strip_newlines | truncate: 160 }}">
@@ -43,19 +49,11 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.0/anchor.min.js" async></script>
   <script src="{{ site.js_url | relative_url }}/page/anchors.js" async></script>
 
-  <!-- Include Turbolinks to make page loads fast -->
-  <!-- https://github.com/turbolinks/turbolinks -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.2.0/turbolinks.js" async></script>
-  <meta name="turbolinks-cache-control" content="no-cache">
-
   <!-- Load nbinteract for widgets -->
   {% include js/nbinteract.html %}
 
-  <!-- Load Thebelab for interactive widgets -->
-  {% include js/thebelab.html %}
-
   <!-- Load the auto-generating TOC (non-async otherwise the TOC won't load w/ turbolinks) -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.8.1/tocbot.min.js" async></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/tocbot.min.js" async></script>
   <script src="{{ site.js_url | relative_url }}/page/tocbot.js"></script>
 
   <!-- Google analytics -->
