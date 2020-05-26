@@ -51,12 +51,13 @@ RUN cd $HOME/work;\
                 dash-renderer \
                 flask \
                 ipywidgets \
+                nibabel \
                 nbconvert; \
     python -m sos_notebook.install;\
-    git clone --single-branch -b master https://github.com/zelenkastiot/Phase-unwrapping-book.git; \
-    cd Phase-unwrapping-book;\
-    chmod -R 777 $HOME/work/Phase-unwrapping-book
+    git clone --single-branch -b master https://github.com/zelenkastiot/PhaseUnwrapping_book.git;   \
+    cd PhaseUnwrapping_book;\
+    chmod -R 777 $HOME/work/PhaseUnwrapping_book
     
-WORKDIR $HOME/work/Phase-unwrapping-book
+WORKDIR $HOME/work/PhaseUnwrapping_book
 
 USER $NB_UID
