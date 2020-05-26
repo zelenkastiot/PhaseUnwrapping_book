@@ -1,6 +1,6 @@
 # Phase unwrapping Jupyter-Book
 
-[![Binder](https://github.com/zelenkastiot/binder_badges/blob/master/badges/PhaseUnwrapping-binder.svg)](https://mybinder.org/v2/gh/Notebook-Factory/PhaseUnwrapping_book/master)
+[![Binder](https://github.com/zelenkastiot/binder_badges/blob/master/badges/PhaseUnwrapping-binder.svg)](https://mybinder.org/v2/gh/zelenkastiot/PhaseUnwrapping_book/master)
 
 
 Paper: https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.27719
