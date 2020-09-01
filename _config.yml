@@ -60,7 +60,7 @@ number_equations: false                 # Whether to automatically number all bl
 # Interact link settings
 
 # General interact settings
-use_jupyterlab: false                     # If 'true', interact links will use JupyterLab as the interface
+use_jupyterlab: true                     # If 'true', interact links will use JupyterLab as the interface
 
 # Jupyterhub link settings
 use_jupyterhub_button: false              # If 'true', display a button that will direct users to a JupyterHub (that you provide)
@@ -85,7 +85,7 @@ codemirror_theme: abcdef                     # Theme for codemirror cells, for o
 use_show_widgets_button: true                # If 'true', display a button to allow in-page running code cells with nbinteract
 
 # Download settings
-use_download_button: true                # If 'true', display a button to download a zip file for the notebook
+use_download_button: false                # If 'true', display a button to download a zip file for the notebook
 download_button_text: Download                # The text that download buttons will contain
 download_page_header: Made with Jupyter Book                # A header that will be displayed at the top of and PDF-printed page
 
