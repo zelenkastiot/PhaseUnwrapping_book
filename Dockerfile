@@ -62,6 +62,3 @@ WORKDIR $HOME/work/PhaseUnwrapping_book
 
 USER $NB_UID
 
-USER $NB_UID
-
-RUN jupyter labextension install jupyterlab-sos 
