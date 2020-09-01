@@ -53,6 +53,7 @@ RUN cd $HOME/work;\
                 nibabel \
                 nbconvert; \
     python -m sos_notebook.install;\
+    jupyter labextension install jupyterlab-sos; \
     git clone --single-branch -b master https://github.com/zelenkastiot/PhaseUnwrapping_book.git;   \
     cd PhaseUnwrapping_book;\
     chmod -R 777 $HOME/work/PhaseUnwrapping_book
@@ -60,5 +61,3 @@ RUN cd $HOME/work;\
 WORKDIR $HOME/work/PhaseUnwrapping_book
 
 USER $NB_UID
-
-RUN jupyter labextension install jupyterlab-sos
