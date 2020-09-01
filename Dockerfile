@@ -51,6 +51,7 @@ RUN cd $HOME/work;\
                 flask \
                 ipywidgets \
                 nibabel \
+                jupyterlab \
                 nbconvert; \
     python -m sos_notebook.install;\
     git clone --single-branch -b master https://github.com/zelenkastiot/PhaseUnwrapping_book.git;   \
@@ -63,6 +64,4 @@ USER $NB_UID
 
 USER $NB_UID
 
-RUN jupyter labextension install @jupyterlab/plotly-extension;  \
-    jupyter labextension install @jupyterlab/celltags; \
-    jupyter labextension install jupyterlab-sos 
+RUN jupyter labextension install jupyterlab-sos 
