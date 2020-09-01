@@ -61,7 +61,4 @@ WORKDIR $HOME/work/PhaseUnwrapping_book
 
 USER $NB_UID
 
-RUN jupyter labextension install transient-display-data; \
-    jupyter labextension install jupyterlab-sos
-
-
+RUN jupyter labextension install jupyterlab-sos
