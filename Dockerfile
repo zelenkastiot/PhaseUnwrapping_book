@@ -18,7 +18,6 @@ RUN apt-get update && \
         curl \
         wget \
         cmake \
-        bsdtar  \
         rsync \
         gnuplot-x11 \
         libopenblas-base \
