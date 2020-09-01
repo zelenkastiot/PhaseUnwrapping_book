@@ -60,3 +60,9 @@ RUN cd $HOME/work;\
 WORKDIR $HOME/work/PhaseUnwrapping_book
 
 USER $NB_UID
+
+USER $NB_UID
+
+RUN jupyter labextension install @jupyterlab/plotly-extension;  \
+    jupyter labextension install @jupyterlab/celltags; \
+    jupyter labextension install jupyterlab-sos 
