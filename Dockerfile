@@ -59,8 +59,6 @@ RUN cd $HOME/work;\
 
 WORKDIR $HOME/work/PhaseUnwrapping_book
 
-USER root 
-
 RUN jupyter labextension install transient-display-data
     jupyter labextension install jupyterlab-sos
 
