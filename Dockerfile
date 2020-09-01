@@ -57,8 +57,8 @@ RUN cd $HOME/work;\
     cd PhaseUnwrapping_book;\
     chmod -R 777 $HOME/work/PhaseUnwrapping_book
 
-RUN jupyter labextension install jupyterlab-sos 
-
 WORKDIR $HOME/work/PhaseUnwrapping_book
 
 USER $NB_UID
+
+RUN jupyter labextension install jupyterlab-sos 
