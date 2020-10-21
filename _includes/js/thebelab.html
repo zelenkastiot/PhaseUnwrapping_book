@@ -3,6 +3,8 @@
 
 <!-- Display Thebelab button in each code cell -->
 {% include js/thebelab-cell-button.html %}
+
+
 <script src="https://unpkg.com/thebelab@latest/lib/index.js" async></script>
 <script>
     /**
@@ -10,7 +12,19 @@
      */
 
     const initThebelab = () => {
+
+
         const addThebelabToCodeCells = () => {
+
+             var els = document.getElementsByClassName("input");
+            Array.prototype.forEach.call(els, function(el) {
+            if (el.style.display === "none") {
+            document.getElementsByClassName("output")[0].children[0].style.display = "block";
+            el.style.display = "block";
+
+            }
+
+            });
             console.log("Adding thebelab to code cells...");
             // If Thebelab hasn't loaded, wait a bit and try again. This
             // happens because we load ClipboardJS asynchronously.
@@ -69,6 +83,9 @@
                 cell.querySelector('.thebelab-run-button').click();
             });
         }
+
+
+
 
         // Add event listener for the function to modify code cells
         const thebelabButtons = document.querySelectorAll('[id^=thebelab], [id$=thebelab]')

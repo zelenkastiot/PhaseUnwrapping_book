@@ -84,6 +84,10 @@ codemirror_theme: abcdef                     # Theme for codemirror cells, for o
 # nbinteract settings
 use_show_widgets_button: true                # If 'true', display a button to allow in-page running code cells with nbinteract
 
+# Toggle code button config
+use_toggle_code_button: true
+toggle_code_button_text: Toggle code
+
 # Download settings
 use_download_button: false                # If 'true', display a button to download a zip file for the notebook
 download_button_text: Download                # The text that download buttons will contain

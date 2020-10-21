@@ -1,0 +1,31 @@
+/* Custom CSS */
+
+.left {
+    margin: 15px 25px 10px !important;
+    float: center !important;
+}
+
+div.top-navbar {
+    padding: 12px 12px 0 70px;
+}
+
+.c-topbar {
+   padding: 12px 12px 0 70px;
+}	
+
+.c-textbook__page {
+    left: 50px;
+}
+
+.c-textbook__content {
+    margin-left: 30px;
+}
+
+.c-textbook__footer {
+	/* display: inline list-item; */
+	margin-left: 175px;
+}
+
+.c-textbook__sidebar {
+    left: 7vh;
+}

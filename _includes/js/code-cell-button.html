@@ -1,0 +1,27 @@
+{% if site.use_toggle_code_button -%}
+<script>
+/**
+ * Set up thebelab button for code blocks
+ */
+
+const toggleCellButton = id =>
+  `<a id="toggle-code-button-${id}" class="btn thebebtn o-tooltip--left" data-tooltip="Interactive Mode">
+    <img src="{{ site.images_url | relative_url }}/edit-button.svg" alt="Start thebelab interactive mode">
+  </a>`
+
+
+const addButtonToToggleCode =  () => {
+
+  const codeCells = document.querySelectorAll('div.input_area > div.highlight:not(.output) pre')
+  codeCells.forEach((codeCell, index) => {
+    const id = codeCellId(index)
+    codeCell.setAttribute('id', id)
+    if (document.getElementById("toggle-code-button-" + id) == null) {
+      codeCell.insertAdjacentHTML('afterend', toggleCellButton(id));
+    }
+  })
+}
+
+initFunction(addButtonToToggleCode);
+</script>
+{% endif %}
