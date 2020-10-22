@@ -144,7 +144,8 @@ RUN cd $HOME/work;\
                 nibabel \
                 nbconvert; \
     python -m sos_notebook.install;\
-    git clone --single-branch -b master https://github.com/Notebook-Factory/PhaseUnwrapping_book.git; \
+    jupyter labextension install --minimize=False jupyterlab-sos; \
+    git clone --single-branch -b master https://github.com/zelenkastiot/PhaseUnwrapping_book.git; \
     cd PhaseUnwrapping_book;\
     chmod -R 777 $HOME/work/PhaseUnwrapping_book
     
