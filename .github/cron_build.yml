@@ -1,5 +1,6 @@
 name: Binder
-on: [push]
+  push:
+    branches: [ master ]
 
 jobs:
   Create-MyBinderOrg-Cache:
