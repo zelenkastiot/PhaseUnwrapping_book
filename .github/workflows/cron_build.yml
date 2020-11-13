@@ -2,7 +2,7 @@ name: Binder
 on:
   push:
     branches:
-      - none  
+      - master  
 
 jobs:
   Create-MyBinderOrg-Cache:
