@@ -72,7 +72,7 @@ use_binder_button: true                  # If 'true', add a binder button for in
 binderhub_url: https://mybinder.org                        # The URL for your BinderHub. If no URL, use ""
 binder_repo_base: https://github.com/                     # The site on which the textbook repository is hosted
 binder_repo_org: Notebook-Factory           # The username or organization that owns this repository
-binder_repo_name: Phase-unwrapping-book            # The name of the repository on the web
+binder_repo_name: PhaseUnwrapping_book            # The name of the repository on the web
 binder_repo_branch: master                     # The branch on which your textbook is hosted.
 binderhub_interact_text: Launch Binder         # The text that interact buttons will contain.
 
